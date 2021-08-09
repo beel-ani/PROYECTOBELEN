@@ -1,0 +1,267 @@
+/*empieza mi navegador*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+header{
+    background-color: rgb(185, 59, 143);
+    width: 100%;
+    padding: 25px 0px;
+    box-shadow : 0px 0px 25px 0 px ;
+    position : absolute;
+    position : fixed ;
+    display : flex ;
+    align-items: center;
+    justify-content: flex-end ;
+    text-decoration: none ;
+}
+nav{
+    width: 100%;
+    justify-content:center;
+    padding-left: 500px;
+}
+li{
+    display:inline;
+}
+.items{
+    text-transform:uppercase;
+    text-decoration:none;
+    padding:25px;
+    color:crimson;
+}
+.items:hover{
+    background-color: cyan;
+    color:blueviolet;
+}
+/*presentacion*/
+.informacion{
+    padding: 80px 8px 0px 0px; 
+}
+@media (max-width: 1180 px) {
+    header{
+        display:column;
+    }
+}
+
+/*imagen*/
+.columna-derecha{
+
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}
+
+
+.tres{
+    display:flex;
+    flex-direction: row;
+    font-family: lobster,cursive;
+}
+@media (max-width: 1180){
+    .columna-derecha{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+/*body*/
+body{
+    box-sizing: border-box;
+    height: 900%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    display:center;
+    justify-content: center;
+    
+}
+/*conocimientos*/
+#cajapadre{
+    display:flex;
+    display: center;
+    width: 600px;
+    margin:auto;
+    border:1000% solid ;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    box-align: center;
+}
+#cajapadre div{
+    height: 200px;
+    margin: 10px;
+    justify-content: center;
+   
+
+}
+
+
+#caja-1{
+    width: 150px;
+}
+#caja-2{
+    width: 150px;
+}
+#caja-3{
+    width: 150px;
+}
+#caja-4{
+    width: 150px;
+}
+#caja-5{
+    width: 150px;
+}
+#caja-6{
+    width: 150px;
+}
+#caja-1 :hover{
+    color :seagreen;
+    border: 2px rgb(185, 81, 139) solid;
+}
+#caja-2 :hover{
+    color :seagreen;
+    border: 2px rgb(185, 81, 139) solid;
+}
+#caja-3 :hover{
+    color :seagreen;
+    border: 2px rgb(185, 81, 139) solid;
+}
+#caja-4 :hover{
+    color :seagreen;
+    border: 2px rgb(185, 81, 139) solid;
+}
+#caja-5 :hover{
+    color :seagreen;
+    border: 2px rgb(185, 81, 139) solid;
+}
+#caja-6 :hover{
+    color :seagreen;
+    border: 2px rgb(185, 81, 139) solid;
+}
+/*proyectos*/
+#cajapadre1{
+    display:flex;
+    width: 800px;
+    margin:auto;
+    border: 5px ;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    box-align: center;
+    justify-content:center;
+    
+}
+#cajapadre1 div{
+    height: 300px;
+    margin:5px;
+    border:50px;
+    
+}
+#caja-A{
+    width: 200px;
+}
+#caja-B{
+    width: 200px;
+}
+#caja-C{
+    width: 200px;
+}
+#caja-D{
+    width: 200px;
+}
+#caja-E{
+    width: 200px;
+}
+#caja-F{
+    width: 200px;
+}
+div #cajapadre #cajapadre1{
+    box-align:center;
+    display:flex;
+    justify-content: center;
+
+}
+#caja-A :hover{
+    color:rgb(156, 51, 104);
+    border: 2px rgb(185, 81, 139) solid;
+}
+#caja-B :hover{
+    color:rgb(156, 51, 104);
+    border: 2px rgb(185, 81, 139) solid;
+}
+#caja-C :hover{
+    color:rgb(156, 51, 104);
+    border: 2px rgb(185, 81, 139) solid;
+}
+#caja-D :hover{
+    color: rgb(156, 51, 104);
+    border: 2px rgb(185,81,139) solid;
+}
+#caja-E :hover{
+    color:rgb(156, 51, 104);
+    border: 2px rgb(185, 81, 139) solid;
+}
+#caja-F :hover{
+    color:rgb(156, 51, 104);
+    border:2px rgb(185, 81, 139) solid;
+}
+/*contacto*/
+.contact{
+    text-align:center;
+    display:flex;
+    flex-grow: row;
+    margin:auto ;
+    
+    color: rgb(226, 43, 171);
+    width: 500%;
+    height: 200px;
+}
+.contactame{
+    text-align: center;
+    margin: auto;
+    display:flex;
+    justify-content: center;
+}
+/*pie de pagina*/
+footer{
+    height: 20%;
+    border:solid 1px;
+    background-color: rgb(226, 43, 171);
+   
+}
+footer ul li{
+    display: inline;
+    text-align: center;
+    text-transform:uppercase;
+    padding: 1rem 2rem;
+    list-style:center;
+    letter-spacing: 5px;
+      
+}
+
+#footer-logos {
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    align-items:center;
+    flex-direction: column;
+    color:seagreen;
+    padding: 0.1em;
+    border-radius: 1px;  
+}
+#footer ul{
+   display:flex;
+   margin-bottom: 25px;
+   font-size: 32px;
+
+}
+#footer ul li{
+    list-style:none;
+    margin:0 8px;
+}
+footer{
+    text-transform: uppercase;
+    font-size:14px;
+    color :lightseagreen;
+    margin-bottom:10px;
+}
